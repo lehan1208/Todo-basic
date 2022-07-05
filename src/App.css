@@ -2,8 +2,12 @@ h1 {
   text-align: center;
 }
 #todo-list {
-  width: 500px;
+  min-width: 900px;
   margin: 60px auto;
+}
+.todo-app {
+  margin: auto;
+  width: 70%;
 }
 form,
 .todo {
