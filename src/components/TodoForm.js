@@ -7,8 +7,9 @@ function TodoForm() {
   const [todoEditing, setTodoEditing] = useState({});
   const [editingText, setEditingText] = useState('');
 
+  const url = 'https://6293b734089f87a57ac4de6d.mockapi.io/list';
   const fetchData = () => {
-    fetch('https://6293b734089f87a57ac4de6d.mockapi.io/list', {
+    fetch(url, {
       method: 'GET', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
